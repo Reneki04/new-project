@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<link href="app.css" rel="stylesheet"/>
+</head>
+
+<body id="body">
+  <div class="loding">
+      <div id="loding"></div>
+  </div>
+    
+                  <!--LOGIN-->
+<div class="login" id="all">
+<div class="container-login" id="badan">
+  <span class="head" onclick="buka()">LOGIN</span>
+  <div class="index-login">
+    <p class="p-text" onclick="up('name')" id="user">User Name</p>
+    <input class="textArea" id="name" type="text-area" />
+    <p class="p-text" onclick="up('password')" id="pass">Password</p>
+    <input class="textArea" id="password" type="password"/>
+  </div>
+  <span class="for-button">
+  <button class="button-login" onclick="login()">Login</button>
+  </span>
+  <hr/>
+  <div class="how-to">
+    <div class="user-login">
+      <p class="p-howto">repo</p>
+      <span class="howto-set">
+      <p class="p-howto1" id="userOpenL"onclick="split('name')">User</p>
+      <p class="p-howto2" id="userOpenR"onclick="split('name')">Name</p>
+      </span>
+    </div>
+    <div class="code-login">
+      <p class="p-howto">repo123</p>
+      <span class="howto-set">
+      <p class="p-howto1" id="passOpenL"onclick="split('pass')">Pass</p>
+      <p class="p-howto2" id="passOpenR"onclick="split('pass')">word</p>
+      </span>
+    </div>
+  </div>
+</div>
+</div>
+
+                  <!--LOGIN END-->
+
+                  <!--CONTENT-->
+                  
+
+<div class="content" id="content">
+  <div class="head1">
+  <div class="content-head"><p>WELCOME</p></div>
+  </div>
+  <hr/>
+<div class="main-container">
+  <div class="container-content">
+    <img src="repo.jpg" alt="repo" width="350px" height="350px" class="repo" />
+    <h1 class="my-name">Repo</h1>
+  </div>
+  <div class="card-am">
+    <h2 class="about-me" onclick="popUp('on')">About Me?</h2>
+    <div class="text-am">
+      <p>Nama saya repo, saya gatau mau ngapain, yaudah begitu saaja ygy</p>
+    </div>
+    </div>
+    <div class="container-skill">
+      <p class="p-skill">Skill</p>
+      <div class=skill>
+        <ul class="ul-skill">
+          <li class="li-skill" id="londry" onclick="turn('londry')">Londry</li>
+          <li class="li-skill" id="gaming" onclick="turn('gaming')">Gaming</li>
+        </ul>
+        <ul class="info-londry" id="infoLondry">
+          <li>Cuci</li>
+          <li>Setrika</li>
+          <li>Jemur</li>
+        </ul>
+        <ul class="info-game" id="infoGaming">
+            <li>Mobile Legend</li>
+            <li>COC</li>
+            <li>NFS Most Wanted</li>
+        </ul>
+      </div>
+  </div>
+</div>
+<div class="container-sosmed">
+  <div class="title-sosmed">
+    <p>Social</p>
+  </div>
+  <div class="sosmed">
+    <a href="errorr" class="social"><img src="Facebook.png" height="70px" width="70px" /> <p>Facebook</p></a>
+    <a href="error" class="social"><img src="twitter.png" height="70px" width="70px" /> <p>Twitter</p></a>
+    <a href="antararepo@gmail.com" class="social"><img src="gmail.png" height="70px" width="70px" /> <p>G-Mail</p></a>
+  </div>
+</div>
+</div>
+  <div id="repoCard">
+      <div class="foto">
+        <img src="repo.jpg" alt="repo" width="130px" height="130px"/>
+      </div>
+      <div class="identitas">
+        <ul class="ul-identitas">
+          <pre>
+          <li class="li-identitas">Nama      : I Ketut Repo Antara</li>
+          <li class="li-identitas">Tgl Lahir : 6 Oktober 2001</li>
+          <li class="li-identitas">Alamat    : Munduk</li>
+          <li class="li-identitas">Hoby      : Menghayal</li>
+          </pre>
+        </ul>
+      </div>
+    </div>
+<footer id="footer">
+  <p>©Repo2022</p>
+</footer>
+                <!--CONTENT END-->
+<script src="app.js"></script>
+</body>
+
+</html>
+
